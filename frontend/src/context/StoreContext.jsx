@@ -1,7 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import axios from "axios";
 import dotenv from "dotenv";
-
 dotenv.config();
 
 export const StoreContext = createContext(null);
